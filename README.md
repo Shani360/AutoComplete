@@ -4,7 +4,7 @@
 
 `cd autocomplete-view`
 
-`auto-complete`
+`cd auto-complete`
 
 
 `npm install`
@@ -16,7 +16,7 @@ On your browser enter `localhost:4200`
 
 
 ## Getting Started With Asp.Net
-enter CitiesApi directory, open the CitiesApi.sln and run with the nuggets.
+Enter CitiesApi directory, open the CitiesApi.sln and run with the nuggets.
 
 
 ## Getting Started With SQL Server

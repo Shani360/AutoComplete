@@ -1,0 +1,19 @@
+<div class="autocomplete-page-content">
+    <h1 class="title">Cities Autocomplete</h1>
+
+    <div class="autocomplete-container">
+        <input class="autocomplete-input" [formControl]="cityInput" placeholder="Search for a city" (focusin)="isShowOptions = true" (blur)="onInputBlur()"/>
+
+        <ul *ngIf="cities && cities.length && isShowOptions" class="options-container">
+            <li *ngFor="let city of cities" id="results" class="options-name" (click)="updateSrearchValue(city.name)">
+                {{city.name}}
+            </li>
+        </ul>
+    </div>
+
+    <div [hidden]="!citiesService.isSubmittimg" class="progress-bar-container">
+        <mat-progress-spinner mode="indeterminate" [diameter]="50"></mat-progress-spinner>
+    </div>
+</div>
+
+

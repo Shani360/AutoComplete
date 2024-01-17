@@ -1,8 +1,6 @@
 # Autocomplete
 
 ## Getting Started With Angular
-`git clone https://github.com/Shani360/AutoComplete.git`
-
 
 `cd autocomplete-view`
 

@@ -1,5 +1,4 @@
 # Autocomplete
-This is a currency converter.
 
 ## Getting Started With Angular
 `git clone https://github.com/Shani360/AutoComplete.git`
